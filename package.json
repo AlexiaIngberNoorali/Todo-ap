@@ -1,0 +1,33 @@
+{
+  "name": "todo-ap",
+  "version": "1.0.0",
+  "description": "a to-do app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexiaIngberNoorali/Todo-ap.git"
+  },
+  "author": "FatCookie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexiaIngberNoorali/Todo-ap/issues"
+  },
+  "homepage": "https://github.com/AlexiaIngberNoorali/Todo-ap#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-layout": "^0.1.0",
+    "mongoose": "^5.11.8",
+    "path": "^0.12.7",
+    "router": "^1.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

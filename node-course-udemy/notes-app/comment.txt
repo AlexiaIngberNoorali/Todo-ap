@@ -1,0 +1,12 @@
+Documentation : https://nodejs.org/dist/latest-v14.x/docs/api/fs.html
+   Before using the file System module, you need to require the module otherwise : error : fs is not defined
+   Load Modules by using the built in Require function/import and stock into variable so that fs(line 10) is now a well defined object
+
+
+
+const fs = require('fs');
+
+ fs.writeFileSync(file, data[, options]) : create a file, write data in that file. 
+fs.writeFileSync('note.txt', 'My name is Alexia.')
+
+fs.appendFileSync('note.txt', ' I live in Brussels and I love dogs');
